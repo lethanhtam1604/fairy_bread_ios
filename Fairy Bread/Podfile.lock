@@ -1,0 +1,39 @@
+PODS:
+  - Crashlytics (3.8.1):
+    - Fabric (~> 1.6.3)
+  - CustomIOSAlertView (0.9.5)
+  - Fabric (1.6.8)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - Crashlytics
+  - CustomIOSAlertView (~> 0.9.5)
+  - Fabric
+  - FontAwesomeKit
+  - PureLayout
+
+SPEC CHECKSUMS:
+  Crashlytics: 4391d8df0b125345e9f209c5db6e7f40a6a8435d
+  CustomIOSAlertView: cc4fa8e36219be3fd5ebcd40789f5b4aaae0f38e
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+PODFILE CHECKSUM: de85ef57806a74d805e12f425b150b1f7c45377f
+
+COCOAPODS: 1.0.1

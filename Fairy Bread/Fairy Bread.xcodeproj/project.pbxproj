@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E12AB9FC98E3187DD7F642 /* Pods_Fairy_Bread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BB91A4FFF3C2FDB7FFF8E4 /* Pods_Fairy_Bread.framework */; };
+		82D2A3DD1DBB12B100692435 /* wrong_choice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82D2A3DC1DBB12B100692435 /* wrong_choice.wav */; };
+		82D2A3DF1DBB145700692435 /* setting_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D2A3DE1DBB145700692435 /* setting_btn.png */; };
+		82D2A3E21DBB171B00692435 /* SearchWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2A3E11DBB171B00692435 /* SearchWordView.swift */; };
+		82D2A3E41DBB172600692435 /* SearchWordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D2A3E31DBB172600692435 /* SearchWordView.xib */; };
+		82D2A3E61DBB175000692435 /* SearchWordDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2A3E51DBB175000692435 /* SearchWordDialog.swift */; };
+		82D2A3EC1DBB379300692435 /* WordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2A3EB1DBB379300692435 /* WordManager.swift */; };
+		82D2A3F11DBB39DE00692435 /* WordViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D2A3EF1DBB39DE00692435 /* WordViewCell.xib */; };
+		82D2A3F31DBB3AF600692435 /* WordViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2A3F21DBB3AF600692435 /* WordViewCell.swift */; };
+		AA623A741D99873500F2474A /* Words.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA623A5E1D99873500F2474A /* Words.txt */; };
+		AA623A771D9987BF00F2474A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623A761D9987BF00F2474A /* MenuViewController.swift */; };
+		AA623A7B1D99885B00F2474A /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623A7A1D99885B00F2474A /* SplashScreenViewController.swift */; };
+		AA623A801D9988FA00F2474A /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623A7D1D9988FA00F2474A /* Global.swift */; };
+		AA623A811D9988FA00F2474A /* HxColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623A7E1D9988FA00F2474A /* HxColor.swift */; };
+		AA623A821D9988FA00F2474A /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623A7F1D9988FA00F2474A /* MusicManager.swift */; };
+		AA623A871D998A2E00F2474A /* 45_sec_timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA623A841D998A2E00F2474A /* 45_sec_timer.mp3 */; };
+		AA623A881D998A2E00F2474A /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA623A851D998A2E00F2474A /* background.mp3 */; };
+		AA623A891D998A2E00F2474A /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA623A861D998A2E00F2474A /* click.wav */; };
+		AA623A9D1D998A3200F2474A /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A8B1D998A3200F2474A /* clock.png */; };
+		AA623A9E1D998A3200F2474A /* exit_game_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A8C1D998A3200F2474A /* exit_game_btn.png */; };
+		AA623A9F1D998A3200F2474A /* first_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A8D1D998A3200F2474A /* first_btn.png */; };
+		AA623AA01D998A3200F2474A /* flag1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A8E1D998A3200F2474A /* flag1.png */; };
+		AA623AA11D998A3200F2474A /* flag2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A8F1D998A3200F2474A /* flag2.png */; };
+		AA623AA21D998A3200F2474A /* geelong.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A901D998A3200F2474A /* geelong.png */; };
+		AA623AA31D998A3200F2474A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA623A911D998A3200F2474A /* Info.plist */; };
+		AA623AA41D998A3200F2474A /* info_game_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A921D998A3200F2474A /* info_game_btn.png */; };
+		AA623AA51D998A3200F2474A /* last_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A931D998A3200F2474A /* last_btn.png */; };
+		AA623AA61D998A3200F2474A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A941D998A3200F2474A /* logo.png */; };
+		AA623AA71D998A3200F2474A /* pause_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A951D998A3200F2474A /* pause_btn.png */; };
+		AA623AA81D998A3200F2474A /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A961D998A3200F2474A /* play_btn.png */; };
+		AA623AA91D998A3200F2474A /* play_game_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A971D998A3200F2474A /* play_game_btn.png */; };
+		AA623AAA1D998A3200F2474A /* screen_1_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A981D998A3200F2474A /* screen_1_logo.png */; };
+		AA623AAB1D998A3200F2474A /* screen_2_welcome_to_country.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA623A991D998A3200F2474A /* screen_2_welcome_to_country.jpeg */; };
+		AA623AAC1D998A3200F2474A /* screen_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A9A1D998A3200F2474A /* screen_logo.png */; };
+		AA623AAD1D998A3200F2474A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623A9B1D998A3200F2474A /* SplashViewController.swift */; };
+		AA623AAE1D998A3200F2474A /* stop_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AA623A9C1D998A3200F2474A /* stop_btn.png */; };
+		AA623AB01D99900E00F2474A /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623AAF1D99900E00F2474A /* PlayGameViewController.swift */; };
+		AA623AB21D9994AA00F2474A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623AB11D9994AA00F2474A /* Constants.swift */; };
+		AA98F6C31D999E79007FECE1 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98F6C21D999E79007FECE1 /* FileManager.swift */; };
+		DA3CAF651D89BD67005D3691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3CAF641D89BD67005D3691 /* AppDelegate.swift */; };
+		DA3CAF6A1D89BD67005D3691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3CAF681D89BD67005D3691 /* Main.storyboard */; };
+		DA3CAF6C1D89BD67005D3691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3CAF6B1D89BD67005D3691 /* Assets.xcassets */; };
+		DA3CAF6F1D89BD67005D3691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3CAF6D1D89BD67005D3691 /* LaunchScreen.storyboard */; };
+		DA48B3D91D8AF9E10083C983 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA48B3D51D8AF9E10083C983 /* FontAwesome.otf */; };
+		DA48B3DA1D8AF9E10083C983 /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA48B3D61D8AF9E10083C983 /* foundation-icons.ttf */; };
+		DA48B3DB1D8AF9E10083C983 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA48B3D71D8AF9E10083C983 /* ionicons.ttf */; };
+		DA48B3DC1D8AF9E10083C983 /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA48B3D81D8AF9E10083C983 /* zocial-regular-webfont.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706DBB8000CE2E3F742FA81B /* Pods-Fairy Bread.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairy Bread.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fairy Bread/Pods-Fairy Bread.release.xcconfig"; sourceTree = "<group>"; };
+		82D2A3DC1DBB12B100692435 /* wrong_choice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong_choice.wav; sourceTree = "<group>"; };
+		82D2A3DE1DBB145700692435 /* setting_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_btn.png; sourceTree = "<group>"; };
+		82D2A3E11DBB171B00692435 /* SearchWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchWordView.swift; sourceTree = "<group>"; };
+		82D2A3E31DBB172600692435 /* SearchWordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchWordView.xib; sourceTree = "<group>"; };
+		82D2A3E51DBB175000692435 /* SearchWordDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchWordDialog.swift; sourceTree = "<group>"; };
+		82D2A3E71DBB195800692435 /* Fairy Bread-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fairy Bread-Bridging-Header.h"; sourceTree = "<group>"; };
+		82D2A3EB1DBB379300692435 /* WordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordManager.swift; sourceTree = "<group>"; };
+		82D2A3EF1DBB39DE00692435 /* WordViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordViewCell.xib; sourceTree = "<group>"; };
+		82D2A3F21DBB3AF600692435 /* WordViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewCell.swift; sourceTree = "<group>"; };
+		AA623A5E1D99873500F2474A /* Words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Words.txt; sourceTree = "<group>"; };
+		AA623A761D9987BF00F2474A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AA623A7A1D99885B00F2474A /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		AA623A7D1D9988FA00F2474A /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		AA623A7E1D9988FA00F2474A /* HxColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HxColor.swift; sourceTree = "<group>"; };
+		AA623A7F1D9988FA00F2474A /* MusicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		AA623A841D998A2E00F2474A /* 45_sec_timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 45_sec_timer.mp3; sourceTree = "<group>"; };
+		AA623A851D998A2E00F2474A /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		AA623A861D998A2E00F2474A /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		AA623A8B1D998A3200F2474A /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		AA623A8C1D998A3200F2474A /* exit_game_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_game_btn.png; sourceTree = "<group>"; };
+		AA623A8D1D998A3200F2474A /* first_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_btn.png; sourceTree = "<group>"; };
+		AA623A8E1D998A3200F2474A /* flag1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag1.png; sourceTree = "<group>"; };
+		AA623A8F1D998A3200F2474A /* flag2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag2.png; sourceTree = "<group>"; };
+		AA623A901D998A3200F2474A /* geelong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geelong.png; sourceTree = "<group>"; };
+		AA623A911D998A3200F2474A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA623A921D998A3200F2474A /* info_game_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_game_btn.png; sourceTree = "<group>"; };
+		AA623A931D998A3200F2474A /* last_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = last_btn.png; sourceTree = "<group>"; };
+		AA623A941D998A3200F2474A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AA623A951D998A3200F2474A /* pause_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_btn.png; sourceTree = "<group>"; };
+		AA623A961D998A3200F2474A /* play_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_btn.png; sourceTree = "<group>"; };
+		AA623A971D998A3200F2474A /* play_game_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_game_btn.png; sourceTree = "<group>"; };
+		AA623A981D998A3200F2474A /* screen_1_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_1_logo.png; sourceTree = "<group>"; };
+		AA623A991D998A3200F2474A /* screen_2_welcome_to_country.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen_2_welcome_to_country.jpeg; sourceTree = "<group>"; };
+		AA623A9A1D998A3200F2474A /* screen_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_logo.png; sourceTree = "<group>"; };
+		AA623A9B1D998A3200F2474A /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		AA623A9C1D998A3200F2474A /* stop_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop_btn.png; sourceTree = "<group>"; };
+		AA623AAF1D99900E00F2474A /* PlayGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
+		AA623AB11D9994AA00F2474A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AA98F6C21D999E79007FECE1 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		DA3CAF611D89BD67005D3691 /* Fairy Bread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fairy Bread.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3CAF641D89BD67005D3691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA3CAF691D89BD67005D3691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA3CAF6B1D89BD67005D3691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA3CAF6E1D89BD67005D3691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA3CAF701D89BD67005D3691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA48B3D51D8AF9E10083C983 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = Pods/FontAwesomeKit/FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		DA48B3D61D8AF9E10083C983 /* foundation-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "Pods/FontAwesomeKit/FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		DA48B3D71D8AF9E10083C983 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ionicons.ttf; path = Pods/FontAwesomeKit/FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		DA48B3D81D8AF9E10083C983 /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "Pods/FontAwesomeKit/FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		F5BB91A4FFF3C2FDB7FFF8E4 /* Pods_Fairy_Bread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairy_Bread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF11135744AC7D62D076F5F6 /* Pods-Fairy Bread.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairy Bread.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fairy Bread/Pods-Fairy Bread.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3CAF5E1D89BD67005D3691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E12AB9FC98E3187DD7F642 /* Pods_Fairy_Bread.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483C8447B4CF420FD5E4AA7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF11135744AC7D62D076F5F6 /* Pods-Fairy Bread.debug.xcconfig */,
+				706DBB8000CE2E3F742FA81B /* Pods-Fairy Bread.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82D2A3E01DBB16FF00692435 /* SearchWordDialog */ = {
+			isa = PBXGroup;
+			children = (
+				82D2A3E11DBB171B00692435 /* SearchWordView.swift */,
+				82D2A3E31DBB172600692435 /* SearchWordView.xib */,
+				82D2A3E51DBB175000692435 /* SearchWordDialog.swift */,
+			);
+			path = SearchWordDialog;
+			sourceTree = "<group>";
+		};
+		82D2A3ED1DBB398000692435 /* WordViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				82D2A3EF1DBB39DE00692435 /* WordViewCell.xib */,
+				82D2A3F21DBB3AF600692435 /* WordViewCell.swift */,
+			);
+			path = WordViewCell;
+			sourceTree = "<group>";
+		};
+		90DD9C304D442F61FA45A87B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB91A4FFF3C2FDB7FFF8E4 /* Pods_Fairy_Bread.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA623A481D99873500F2474A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AA623A831D998A2E00F2474A /* Music */,
+				AA623A8A1D998A3200F2474A /* Images */,
+				AA623A5E1D99873500F2474A /* Words.txt */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AA623A751D9987BF00F2474A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA623A761D9987BF00F2474A /* MenuViewController.swift */,
+				AA623A7A1D99885B00F2474A /* SplashScreenViewController.swift */,
+				AA623AAF1D99900E00F2474A /* PlayGameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA623A7C1D9988FA00F2474A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AA623A7D1D9988FA00F2474A /* Global.swift */,
+				AA623A7E1D9988FA00F2474A /* HxColor.swift */,
+				AA623A7F1D9988FA00F2474A /* MusicManager.swift */,
+				AA623AB11D9994AA00F2474A /* Constants.swift */,
+				AA98F6C21D999E79007FECE1 /* FileManager.swift */,
+				82D2A3EB1DBB379300692435 /* WordManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AA623A831D998A2E00F2474A /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				82D2A3DC1DBB12B100692435 /* wrong_choice.wav */,
+				AA623A841D998A2E00F2474A /* 45_sec_timer.mp3 */,
+				AA623A851D998A2E00F2474A /* background.mp3 */,
+				AA623A861D998A2E00F2474A /* click.wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		AA623A8A1D998A3200F2474A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AA623A8B1D998A3200F2474A /* clock.png */,
+				82D2A3DE1DBB145700692435 /* setting_btn.png */,
+				AA623A8C1D998A3200F2474A /* exit_game_btn.png */,
+				AA623A8D1D998A3200F2474A /* first_btn.png */,
+				AA623A8E1D998A3200F2474A /* flag1.png */,
+				AA623A8F1D998A3200F2474A /* flag2.png */,
+				AA623A901D998A3200F2474A /* geelong.png */,
+				AA623A911D998A3200F2474A /* Info.plist */,
+				AA623A921D998A3200F2474A /* info_game_btn.png */,
+				AA623A931D998A3200F2474A /* last_btn.png */,
+				AA623A941D998A3200F2474A /* logo.png */,
+				AA623A951D998A3200F2474A /* pause_btn.png */,
+				AA623A961D998A3200F2474A /* play_btn.png */,
+				AA623A971D998A3200F2474A /* play_game_btn.png */,
+				AA623A981D998A3200F2474A /* screen_1_logo.png */,
+				AA623A991D998A3200F2474A /* screen_2_welcome_to_country.jpeg */,
+				AA623A9A1D998A3200F2474A /* screen_logo.png */,
+				AA623A9B1D998A3200F2474A /* SplashViewController.swift */,
+				AA623A9C1D998A3200F2474A /* stop_btn.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DA3CAF581D89BD67005D3691 = {
+			isa = PBXGroup;
+			children = (
+				DA48B3DD1D8AF9E70083C983 /* Fonts */,
+				DA3CAF631D89BD67005D3691 /* Fairy Bread */,
+				DA3CAF621D89BD67005D3691 /* Products */,
+				483C8447B4CF420FD5E4AA7D /* Pods */,
+				90DD9C304D442F61FA45A87B /* Frameworks */,
+				82D2A3E71DBB195800692435 /* Fairy Bread-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3CAF621D89BD67005D3691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3CAF611D89BD67005D3691 /* Fairy Bread.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3CAF631D89BD67005D3691 /* Fairy Bread */ = {
+			isa = PBXGroup;
+			children = (
+				82D2A3ED1DBB398000692435 /* WordViewCell */,
+				82D2A3E01DBB16FF00692435 /* SearchWordDialog */,
+				AA623A7C1D9988FA00F2474A /* Manager */,
+				AA623A751D9987BF00F2474A /* Controller */,
+				AA623A481D99873500F2474A /* Resource */,
+				DA3CAF641D89BD67005D3691 /* AppDelegate.swift */,
+				DA3CAF681D89BD67005D3691 /* Main.storyboard */,
+				DA3CAF6B1D89BD67005D3691 /* Assets.xcassets */,
+				DA3CAF6D1D89BD67005D3691 /* LaunchScreen.storyboard */,
+				DA3CAF701D89BD67005D3691 /* Info.plist */,
+			);
+			path = "Fairy Bread";
+			sourceTree = "<group>";
+		};
+		DA48B3DD1D8AF9E70083C983 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA48B3D51D8AF9E10083C983 /* FontAwesome.otf */,
+				DA48B3D61D8AF9E10083C983 /* foundation-icons.ttf */,
+				DA48B3D71D8AF9E10083C983 /* ionicons.ttf */,
+				DA48B3D81D8AF9E10083C983 /* zocial-regular-webfont.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3CAF601D89BD67005D3691 /* Fairy Bread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3CAF731D89BD67005D3691 /* Build configuration list for PBXNativeTarget "Fairy Bread" */;
+			buildPhases = (
+				B813173471A9E92854127EF3 /* [CP] Check Pods Manifest.lock */,
+				DA3CAF5D1D89BD67005D3691 /* Sources */,
+				DA3CAF5E1D89BD67005D3691 /* Frameworks */,
+				DA3CAF5F1D89BD67005D3691 /* Resources */,
+				26A8CD232760ECEF3A9DB487 /* [CP] Embed Pods Frameworks */,
+				CC9B9C104CC8992ACD832D50 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fairy Bread";
+			productName = "Fairy Bread";
+			productReference = DA3CAF611D89BD67005D3691 /* Fairy Bread.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3CAF591D89BD67005D3691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Lavamy;
+				TargetAttributes = {
+					DA3CAF601D89BD67005D3691 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HQ7CXJ2V7K;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA3CAF5C1D89BD67005D3691 /* Build configuration list for PBXProject "Fairy Bread" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3CAF581D89BD67005D3691;
+			productRefGroup = DA3CAF621D89BD67005D3691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3CAF601D89BD67005D3691 /* Fairy Bread */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3CAF5F1D89BD67005D3691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA623AAC1D998A3200F2474A /* screen_logo.png in Resources */,
+				AA623A9D1D998A3200F2474A /* clock.png in Resources */,
+				AA623AAA1D998A3200F2474A /* screen_1_logo.png in Resources */,
+				DA48B3D91D8AF9E10083C983 /* FontAwesome.otf in Resources */,
+				AA623AA31D998A3200F2474A /* Info.plist in Resources */,
+				AA623A9E1D998A3200F2474A /* exit_game_btn.png in Resources */,
+				AA623AA01D998A3200F2474A /* flag1.png in Resources */,
+				82D2A3E41DBB172600692435 /* SearchWordView.xib in Resources */,
+				AA623A871D998A2E00F2474A /* 45_sec_timer.mp3 in Resources */,
+				AA623AA91D998A3200F2474A /* play_game_btn.png in Resources */,
+				AA623AA41D998A3200F2474A /* info_game_btn.png in Resources */,
+				AA623AA21D998A3200F2474A /* geelong.png in Resources */,
+				DA48B3DA1D8AF9E10083C983 /* foundation-icons.ttf in Resources */,
+				AA623AA71D998A3200F2474A /* pause_btn.png in Resources */,
+				AA623AAB1D998A3200F2474A /* screen_2_welcome_to_country.jpeg in Resources */,
+				AA623AA81D998A3200F2474A /* play_btn.png in Resources */,
+				82D2A3DF1DBB145700692435 /* setting_btn.png in Resources */,
+				DA48B3DB1D8AF9E10083C983 /* ionicons.ttf in Resources */,
+				DA48B3DC1D8AF9E10083C983 /* zocial-regular-webfont.ttf in Resources */,
+				AA623AA61D998A3200F2474A /* logo.png in Resources */,
+				AA623AA11D998A3200F2474A /* flag2.png in Resources */,
+				AA623A891D998A2E00F2474A /* click.wav in Resources */,
+				AA623AAE1D998A3200F2474A /* stop_btn.png in Resources */,
+				DA3CAF6F1D89BD67005D3691 /* LaunchScreen.storyboard in Resources */,
+				82D2A3F11DBB39DE00692435 /* WordViewCell.xib in Resources */,
+				AA623A881D998A2E00F2474A /* background.mp3 in Resources */,
+				82D2A3DD1DBB12B100692435 /* wrong_choice.wav in Resources */,
+				AA623A741D99873500F2474A /* Words.txt in Resources */,
+				DA3CAF6C1D89BD67005D3691 /* Assets.xcassets in Resources */,
+				DA3CAF6A1D89BD67005D3691 /* Main.storyboard in Resources */,
+				AA623AA51D998A3200F2474A /* last_btn.png in Resources */,
+				AA623A9F1D998A3200F2474A /* first_btn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26A8CD232760ECEF3A9DB487 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fairy Bread/Pods-Fairy Bread-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B813173471A9E92854127EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9B9C104CC8992ACD832D50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fairy Bread/Pods-Fairy Bread-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3CAF5D1D89BD67005D3691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA623A771D9987BF00F2474A /* MenuViewController.swift in Sources */,
+				AA623A821D9988FA00F2474A /* MusicManager.swift in Sources */,
+				82D2A3EC1DBB379300692435 /* WordManager.swift in Sources */,
+				AA623A811D9988FA00F2474A /* HxColor.swift in Sources */,
+				AA623A7B1D99885B00F2474A /* SplashScreenViewController.swift in Sources */,
+				DA3CAF651D89BD67005D3691 /* AppDelegate.swift in Sources */,
+				AA98F6C31D999E79007FECE1 /* FileManager.swift in Sources */,
+				82D2A3E21DBB171B00692435 /* SearchWordView.swift in Sources */,
+				AA623AAD1D998A3200F2474A /* SplashViewController.swift in Sources */,
+				AA623AB01D99900E00F2474A /* PlayGameViewController.swift in Sources */,
+				82D2A3F31DBB3AF600692435 /* WordViewCell.swift in Sources */,
+				AA623A801D9988FA00F2474A /* Global.swift in Sources */,
+				AA623AB21D9994AA00F2474A /* Constants.swift in Sources */,
+				82D2A3E61DBB175000692435 /* SearchWordDialog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA3CAF681D89BD67005D3691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3CAF691D89BD67005D3691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA3CAF6D1D89BD67005D3691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3CAF6E1D89BD67005D3691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA3CAF711D89BD67005D3691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA3CAF721D89BD67005D3691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3CAF741D89BD67005D3691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF11135744AC7D62D076F5F6 /* Pods-Fairy Bread.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = HQ7CXJ2V7K;
+				INFOPLIST_FILE = "Fairy Bread/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavamy.Fairy-Bread";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fairy Bread-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA3CAF751D89BD67005D3691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706DBB8000CE2E3F742FA81B /* Pods-Fairy Bread.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = HQ7CXJ2V7K;
+				INFOPLIST_FILE = "Fairy Bread/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavamy.Fairy-Bread";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fairy Bread-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3CAF5C1D89BD67005D3691 /* Build configuration list for PBXProject "Fairy Bread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3CAF711D89BD67005D3691 /* Debug */,
+				DA3CAF721D89BD67005D3691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3CAF731D89BD67005D3691 /* Build configuration list for PBXNativeTarget "Fairy Bread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3CAF741D89BD67005D3691 /* Debug */,
+				DA3CAF751D89BD67005D3691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3CAF591D89BD67005D3691 /* Project object */;
+}

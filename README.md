@@ -1,1 +1,1 @@
-# fairy_bread_ios
+Fairy break game for iOS
